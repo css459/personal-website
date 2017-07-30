@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+}
+
+.AppHeader, .AppSubHeader {
+    padding: 80px 15px 10px;
+    color: #464739;
+    text-align: center;
+    font-family: Didot, Baskerville, serif;
+    font-size: 72px;
+}
+
+.AppSubHeader {
+    padding: 0 15px 10px;
+    font-size: 21px;
+}
+
+.Divider, .DividerSmall {
+    text-align: center;
+    width: 40%;
+    margin: 15px auto auto;
+    padding-bottom: 20px;
+    border: 0.5px #464739;
+    border-top-style: solid;
+}
+
+.DividerSmall {
+    width: 10%;
+    padding-bottom: 0;
+}
+
+.Button {
+    margin: 2%;
+    padding: 5px;
+    border: none;
+    background-color: inherit;
+    font-family: Didot, Baskerville, serif;
+    font-size: 21px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.Button:hover, .Button:focus {
+    font-size: 25px;
+    border-left: 3px solid red;
+}
+
+.Link {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.SocialLinks {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    padding-bottom: 10px;
+}
+
+.Link:hover, .Link:focus {
+    width: 40px;
+    height:40px;
+}
+
+.BuiltWith {
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    margin: auto;
+    padding: 10px;
+    color: darkgray;
+    font-size: 12px;
+    font-family: monospace;
+}
