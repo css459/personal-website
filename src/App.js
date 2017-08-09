@@ -79,8 +79,8 @@ class App extends React.Component {
         let homeView = (
             <div className="Home">
                 <HomeDecoration
-                    width={300}
-                    height={300}
+                    width={window.innerHeight * 0.3}
+                    height={window.innerHeight * 0.3}
                 />
                 <div className="AppHeader"> Cole Smith </div>
                 <div className="Divider"/>
@@ -103,7 +103,9 @@ class App extends React.Component {
 
                 </div>
                 <div className="BuiltWith">
-                    Built with React ⚛
+                    <a href="https://github.com/css459/personal-website">
+                        View Source
+                    </a>
                 </div>
             </div>
         );
