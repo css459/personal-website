@@ -8,7 +8,7 @@
 
 npm run build
 git clone git@github.com:css459/css459.github.io.git
-rsync -avh --delete build/ css459.github.io/
+rsync -avh build/ css459.github.io/
 cd css459.github.io/
 git add -A
 git commit -m "Updated files"
