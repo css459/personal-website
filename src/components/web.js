@@ -33,7 +33,7 @@ class Web extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="page">
                 <div className="goHome">Home</div>
                 <div
                     id="header"

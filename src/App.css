@@ -2,6 +2,21 @@
     text-align: center;
 }
 
+.Home {
+    -webkit-animation: fadeIn 1s linear forwards;
+    animation: fadeIn 1s linear forwards;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
 .AppHeader, .AppSubHeader {
     padding: 20px 15px 10px;
     color: #464739;
@@ -45,6 +60,11 @@
 .Button:hover, .Button:focus {
     font-size: 25px;
     border-left: 3px solid red;
+}
+
+.Button:active + div.App {
+    -webkit-animation: fadeOut 1s linear forwards;
+    animation: fadeOut 1s linear forwards;
 }
 
 .Link {

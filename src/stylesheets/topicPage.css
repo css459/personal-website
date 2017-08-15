@@ -1,3 +1,8 @@
+.page {
+    -webkit-animation: fadeIn 1s linear forwards;
+    animation: fadeIn 1s linear forwards;
+}
+
 .header {
     float: left;
     margin: 10px;
@@ -43,4 +48,14 @@
     color: #464739;
     font-size: 18px;
     font-family: Didot, Baskerville, serif;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% {opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% {opacity: 1; }
 }
