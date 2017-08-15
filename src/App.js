@@ -30,7 +30,9 @@ class App extends React.Component {
                 <button
                     key={i}
                     className="Button"
-                    onClick={() => { this.presentPage(i) }}
+                    onClick={() => {
+                        this.presentPage(i)
+                    }}
                 >
                     {i}
                 </button>
@@ -73,7 +75,7 @@ class App extends React.Component {
         }
     }
 
-  // noinspection JSMethodCanBeStatic
+    // noinspection JSMethodCanBeStatic
     render() {
 
         let homeView = (
@@ -82,7 +84,7 @@ class App extends React.Component {
                     width={window.innerHeight * 0.3}
                     height={window.innerHeight * 0.3}
                 />
-                <div className="AppHeader"> Cole Smith </div>
+                <div className="AppHeader"> Cole Smith</div>
                 <div className="Divider"/>
                 <div className="AppSubHeader">Development and Design</div>
                 <div className="DividerSmall"/>
@@ -116,12 +118,12 @@ class App extends React.Component {
             </div>
         );
 
-    return (
-      <div className="App">
-          { this.state.presenting ? pageView : homeView }
-      </div>
-    );
-  }
+        return (
+            <div className="App">
+                {this.state.presenting ? pageView : homeView}
+            </div>
+        );
+    }
 }
 
 export default App;

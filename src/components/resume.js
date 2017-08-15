@@ -26,7 +26,7 @@ class Resume extends React.Component {
                 header.style.borderLeftWidth = "30px";
             }, 100);
             setTimeout(() => {
-                header.style.borderLeftWidth= original;
+                header.style.borderLeftWidth = original;
             }, 1000);
         }
     }
